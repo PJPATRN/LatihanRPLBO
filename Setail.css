@@ -8,7 +8,7 @@
 }
 
 .navbar {
-    background-color: #444;
+    background-color: crimson;
     height: 10vh;
     width: 100%;
 }
@@ -29,7 +29,7 @@
 }
 
 .linavbar:hover{
-    background-color: crimson;
+    background-color: rgb(39, 31, 31);
     transition: .2s ease-in-out;
     transition-delay: .1s;
     border-radius: 8px;
@@ -38,6 +38,7 @@
 .ling{
     color: white;
     text-decoration: none;
+    font-weight: 800px;
 }
 
 /* Navbar done */
@@ -45,7 +46,7 @@
 
 /* Content */
 .Containercontent{
-    background-color: black;
+    background-color: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,21 +54,26 @@
 }
 
 .imgcontent{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 }
 
 .a-content{
     width: 500px;
     height: 500px;
-    background-color: green;
+    background-color: white;
     color: black;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 /* Content done */
@@ -84,7 +90,7 @@
 
 .h1_footer{
     font-size: 20px;
-
+    color: white;
 }
 
 /* Footer done */
