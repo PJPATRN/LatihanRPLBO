@@ -26,6 +26,13 @@
     color: white;
     margin: 5px;
     font-size: 30px;
+
+}
+
+#biodata {
+    background-color : red;
+    width: 500px;
+    height: 500px;
 }
 
 .linavbar:hover{
