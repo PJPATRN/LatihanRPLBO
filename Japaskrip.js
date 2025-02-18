@@ -1,7 +1,7 @@
 const namaSaya = "Paulus Ungirwalu";
 let Umur = 21;
 
-const biodata = document.getElementById('biodata');
+let biodata = document.getElementById('biodata');
 console.log(biodata);
 
 function generateBiodata() {
@@ -16,7 +16,7 @@ function generateBiodata() {
     } else {
         generasi = "gen apa bjir";
     }
-    return console.log(`Generasi anda adalah : ${generasi}`);
+    return biodata.innerHTML = generasi;
 }
 
 generateBiodata()

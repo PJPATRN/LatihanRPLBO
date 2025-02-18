@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Interaktif dengan HTML Murni</title>
+</head>
+<body>
+
+    <h2>Tabel Interaktif (Tanpa CSS/JavaScript)</h2>
+
+    <form method="post">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Komentar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" name="nama1" required></td>
+                    <td><input type="number" name="umur1" min="1" max="100" required></td>
+                    <td>
+                        <select name="gender1">
+                            <option value="L">Laki-laki</option>
+                            <option value="P">Perempuan</option>
+                        </select>
+                    </td>
+                    <td><textarea name="komentar1" rows="2"></textarea></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" name="nama2" required></td>
+                    <td><input type="number" name="umur2" min="1" max="100" required></td>
+                    <td>
+                        <select name="gender2">
+                            <option value="L">Laki-laki</option>
+                            <option value="P">Perempuan</option>
+                        </select>
+                    </td>
+                    <td><textarea name="komentar2" rows="2"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

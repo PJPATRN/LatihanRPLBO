@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login" method="get" enctype="multipart/form-data"> <!-- method = "get" untuk ambil data inputan -->
+        NIM : <input type="text" minlength="3" maxlength="30" placeholder="Masukkan NIM" name="NIM">
+        No_urut : <input type="number" min="10" max="25"> <!-- type = "number" untuk tipe angka -->
+        ALAMAT : <textarea name="" id="" cols="10" rows="5"></textarea> <br> <!-- textarea untuk ambil data inputan long text-->
+        gender : <input type="radio" name="gender" id="gender1" value="Male"> Cowo
+                 <input type="radio" name="gender" id="gender1" value="Female"> Cewe <br>
+                 <!-- untuk radio button, kita butuh id yang berbeda tetapi nama harus sama-->
+        Hobby :  <input type="radio" name="gender" id="gender1" value="Lain"> Lain <br>
+                 <input type="checkbox" nama="" value="Membaca">Membaca
+                 <input type="checkbox" nama="" value="Menulis">Menulis<br>
+        PDDKN :
+        <select name="pendidikan" id="Yaya">
+            <option value="SD">SD</option>            <!-- Ada yg namanya selected untuk kasih default select atau pilihan -->
+            <option value="SMA">SMA</option>
+        </select><br>
+        <input type="file" name="dile" id="yolo">
+        <input type="submit" value="MASUK"></input>
+        <input type="reset" value="Reset">
+        <br><br><br><br><br><br>
+
+    </form>
+</body>
+</html>
