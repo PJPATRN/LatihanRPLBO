@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Volunteer UKDW</title>
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <td align="right">
+                <h3>Universitas Kristen Duta Wacana
+                    <a href="https://ukdw.ac.id/"><img src="ukdw.png" alt="Logo UKDW" width="50px" valign="middle"></a>
+                </h3>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h2 align="center">Formulir Pendaftaran Volunteer UKDW</h2>
+    <div align="center">
+        <a href="https://ukdw.ac.id/akademik/fakultas-teknologi-informasi/"><img src="ukdw.png" alt="Logo UKDW" width="250px"></a>
+    </div>
+    
+    <table align="center" cellpadding="10">
+        <tr>
+            <td>
+                <form action="hasil.html">
+                    <fieldset>
+                        <legend><b>Informasi Pribadi</b></legend>
+                        Nama Lengkap: <input type="text" name="nama" maxlength="50" required><br><br>
+                        NIK: <input type="text" name="nik" maxlength="16" required><br><br>
+                        Alamat: <textarea name="alamat" rows="3" required></textarea><br><br>
+                        Tanggal Lahir: <input type="date" name="tanggal_lahir" required><br><br>
+                        Jenis Kelamin: 
+                        <select name="jenis_kelamin" required>
+                            <option value="">Pilih</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select><br><br>
+                        Upload Foto Diri: <input type="file" name="foto" accept=".pdf" required><br>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend><b>Pengalaman dan Minat</b></legend>
+                        Pendidikan Terakhir: <br>
+                        <input type="radio" name="pendidikan" value="SMA" required> SMA 
+                        <input type="radio" name="pendidikan" value="D3"> D3 
+                        <input type="radio" name="pendidikan" value="S1"> S1 
+                        <input type="radio" name="pendidikan" value="Lainnya"> Lainnya <br><br>
+                        Keahlian: <textarea name="keahlian" required></textarea><br><br>
+                        Bidang Minat:<br>
+                        <input type="checkbox" name="minat[]" value="IT"> IT <br>
+                        <input type="checkbox" name="minat[]" value="Event"> Event <br>
+                        <input type="checkbox" name="minat[]" value="Humas"> Humas <br><br>
+                        Link Portofolio: <input type="url" name="portofolio" required><br>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend><b>Kontak</b></legend>
+                        Email: <input type="email" name="email" required><br><br>
+                        Nomor Telepon: <input type="tel" name="hp" maxlength="13" required><br>
+                    </fieldset>
+                    
+                    <br>
+                    <div align="center">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Daftar">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <footer align="left">
+        <p><a href="#">Park Chanyeol 172130002</a></p>
+    </footer>
+</body>
+</html>
